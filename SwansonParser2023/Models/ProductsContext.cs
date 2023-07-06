@@ -17,4 +17,12 @@ public class ProductsContext: DbContext
         optionsBuilder.UseSqlServer("Data Source=SILVERSTONE\\SQLEXPRESS;Initial Catalog=Swanson;Integrated Security=True;Persist Security Info=False;Pooling=False;Connect Timeout=60;Encrypt=False");
     }
 
+
+    /*
+     * 1. Змінити строку підключення
+     * 2. update-database
+     * 3. run parser
+     * 4. Змінити bot token
+     * 5. run bot
+\     */
 }
